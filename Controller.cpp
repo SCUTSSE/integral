@@ -29,6 +29,7 @@ void Controller::DealCommand()
         cout<<"To calculate the integral, the input should be like int(2.3x2.2-4.5x3.4,2,3). The last two Numbers are lower bound and upper bound respectively"<<endl;
         cout<<"To calculate the derivative, the input should be like dif(2.3x2.2-4.5x3.4) and the constant is omitted in the result"<<endl;
         cout<<"The above values can be represented by fractions, decimals, and integers, such as int(2/3x4/5-2x3.3)"<<endl;
+        cout<<endl<<"And a function that quickly passes back and down historical commands through the up and down keys is also added."<<endl;
         cout<<endl;
         return;
     }
